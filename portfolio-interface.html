@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Seam Raksantra - Portfolio</title>
+  <link rel="icon" type="image/png" href="asset/cv.png">
+  <link rel="stylesheet" href="/style/portfolio-interface.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="logo">Seam Raksantra</div>
+    
+    <nav>
+      <ul class="nav-links">
+        <li style="--i:1"><a href="#home" class="active">Home</a></li>
+        <li style="--i:2"><a href="#about">About</a></li>
+        <li style="--i:3"><a href="#skills">Skills</a></li>
+        <li style="--i:4"><a href="#projects">Latest Projects</a></li>
+        <li style="--i:5"><a href="#contact">Contact</a></li>
+      </ul>
+      
+      <div class="burger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+  
+    <div class="nav-overlay"></div>
+  </header>  
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h1>Hi, I'm <span>Seam Raksantra</span></h1>
+      <h2 class="role typing">Frontend Web Developer</h2>
+      <p>
+        I create modern, responsive web applications that deliver exceptional 
+        user experiences. Passionate about clean code and innovative solutions.
+      </p>
+      <div class="buttons">
+        <a href="#projects" class="btn primary">View My Work</a>
+        <a href="#contact" class="btn outline">Get In Touch</a>
+      </div>
+    </div>
+    <div class="hero-image"></div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <div class="about-container">
+      <!-- Profile Image -->
+      <div class="about-img">
+        <img src="asset/photo.jpg" alt="Profile Picture">
+      </div>
+
+      <!-- About Content -->
+      <div class="about-content">
+        <h2 class="section-title">About Me</h2>
+        <h3>Passionate Developer with 2+ Years Experience as a Student</h3>
+        <p>
+          I specialize in building responsive, user-friendly interfaces using technologies like HTML, CSS, React, Tailwind, and Laravel. 
+          I enjoy turning complex ideas into clean, functional websites that offer a smooth user experience.
+        </p>
+        <p>
+          Beyond coding, I strongly value teamwork. Working in group projects has taught me how to communicate effectively, share responsibilities, and support each other to reach a common goal. 
+          I believe that great results come from strong collaboration.
+        </p>
+
+        <!-- Stats -->
+        <div class="about-stats">
+          <div>
+            <h3>3</h3>
+            <p>Projects Completed</p>
+          </div>
+          <div>
+            <h3>--</h3>
+            <p>Years Experience</p>
+          </div>
+        </div>
+
+        <!-- Resume Button -->
+        <a href="asset/my_resume.pdf" download target="_blank" class="btn primary">
+          <i class="fa fa-download"></i> Download Resume
+        </a>
+      </div>
+    </div>
+  </section>
+
+    <!-- Skills Section -->
+  <section id="skills" class="skills">
+    <div class="skills-container">
+      <h2 class="section-title">My Skills</h2>
+      <p class="section-subtitle">Here are the technologies and tools I use to bring ideas to life</p>
+
+      <!-- Skill Cards -->
+      <div class="skill-cards">
+        <div class="skill-card">
+          <i class="fab fa-html5"></i>
+          <h3>HTML/CSS</h3>
+          <div class="progress"><span style="width:95%"></span></div>
+          <p>95%</p>
+        </div>
+        <div class="skill-card">
+          <i class="fab fa-react"></i>
+          <h3>React</h3>
+          <div class="progress"><span style="width:88%"></span></div>
+          <p>88%</p>
+        </div>
+        <div class="skill-card">
+          <i class="devicon-tailwindcss-original colored"></i>
+          <h3>Tailwinds Css</h3>
+          <div class="progress"><span style="width:85%"></span></div>
+          <p>85%</p>
+        </div>
+        <div class="skill-card">
+          <i class="fab fa-bootstrap"></i>
+          <h3>Bootstrap</h3>
+          <div class="progress"><span style="width:80%"></span></div>
+          <p>80%</p>
+        </div>
+        <div class="skill-card">
+          <i class="fa-brands fa-laravel"></i>
+          <h3>Laravel</h3>
+          <div class="progress"><span style="width:80%"></span></div>
+          <p>80%</p>
+        </div>
+        <div class="skill-card">
+          <i class="fab fa-js-square"></i>
+          <h3>JavaScript</h3>
+          <div class="progress"><span style="width:70%"></span></div>
+          <p>70%</p>
+        </div>
+        <div class="skill-card">
+          <i class="devicon-typescript-plain colored"></i>
+          <h3>TypeScript</h3>
+          <div class="progress"><span style="width:70%"></span></div>
+          <p>70%</p>
+        </div>
+        <div class="skill-card">
+          <i class="fas fa-database"></i>
+          <h3>MySQl</h3>
+          <div class="progress"><span style="width:60%"></span></div>
+          <p>60%</p>
+        </div>
+      </div>
+
+      <!-- Categories -->
+      <div class="skill-categories">
+        <div>
+          <h4>Frontend</h4>
+          <ul>
+            <li>Html / Css</li>
+            <li>React / Vue.js</li>
+            <li>TypeScript</li>
+            <li>Tailwind CSS</li>
+            <li>Bootstrap</li>
+          </ul>
+        </div>
+        <div>
+          <h4>Backend</h4>
+          <ul>
+            <li>Laravel</li>
+            <li>JavaScript</li>
+            <li>Java</li>
+            <li>Node.js</li>
+          </ul>
+        </div>
+        <div>
+          <h4>Database</h4>
+          <ul>
+            <li>MySQL workbench</li>
+            <li>Php MyAdmin</li>
+            <li>PostgreSQL</li>
+          </ul>
+        </div>
+        <div>
+          <h4>Tools</h4>
+          <ul>
+            <li>Git / GitHub</li>
+            <li>Docker</li>
+            <li>Figma</li>
+            <li>Canvas</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="projects-section">
+    <h2 class="section-title">Latest Projects</h2>
+    <p>Here are some of my recent projects that showcase my skills and experience</p>
+
+    <div class="projects-container">
+      <!-- Project 1 -->
+      <div class="project-card">
+        <img src="asset/angkor-traversal.png" alt="travel-agency">
+        <div class="project-content">
+          <h3>Angkor-Traversal</h3>
+          <p>A full-stack travel agency solution with full-stack Laravel, featuring user authentication, payment integration, and admin dashboard.</p>
+          <div class="tags">
+            <span class="tag">Laravel</span>
+            <span class="tag">Tailwinds Css</span>
+            <span class="tag">MySQL</span>
+            <span class="tag">Railway</span>
+          </div>
+        </div>
+        <div class="card-buttons">
+          <a href="#" class="btn demo">
+            <i class="fas fa-external-link-alt"></i> Live Demo
+          </a>
+          <a href="https://github.com/seam-raksantra/Angkor-Traversal" class="btn code">
+            <i class="fas fa-code"></i> View Code
+          </a>          
+        </div>
+      </div>
+
+      <!-- Project 2 -->
+      <div class="project-card">
+        <img src="asset/skincare.png" alt="Task Management App">
+        <div class="project-content">
+          <h3>E-commerce websites</h3>
+          <p>An online e-commerce skincare products solution, featuring user authentication, ordering, search, take quize.</p>
+          <div class="tags">
+            <span class="tag">Html</span>
+            <span class="tag">Css style</span>
+            <span class="tag">JavaScript</span>
+            <span class="tag">Telegram-bot</span>
+          </div>
+        </div>
+        <div class="card-buttons">
+          <a href="#" class="btn demo">
+            <i class="fas fa-external-link-alt"></i> Live Demo
+          </a>
+          <a href="https://github.com/seam-raksantra/Plurel" class="btn code">
+            <i class="fas fa-code"></i> View Code
+          </a>          
+        </div>
+      </div>
+
+      <!-- Project 3 -->
+      <div class="project-card">
+        <img src="asset/portfolio.png" alt="Weather Dashboard">
+        <div class="project-content">
+          <h3>Portfolio Websites</h3>
+          <p>My personal portfolio websites with html sass and javascript to showcase my ability and skills in this position.</p>
+          <div class="tags">
+            <span class="tag">Html</span>
+            <span class="tag">SASS / Css Style</span>
+            <span class="tag">JavaScript</span>
+            <span class="tag">Vercel</span>
+          </div>
+        </div>
+        <div class="card-buttons">
+          <a href="#" class="btn demo">
+            <i class="fas fa-external-link-alt"></i> Live Demo
+          </a>
+          <a href="https://github.com/seam-raksantra/portfolio-website" class="btn code">
+            <i class="fas fa-code"></i> View Code
+          </a>          
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!-- Contact Section -->
+  <section id="contact" class="contact-section">
+    <div class="contact-header">
+      <h2 class="section-title">Get In Touch</h2>
+      <p>Have a project in mind? Let's work together to bring your ideas to life</p>
+    </div>
+
+    <div class="contact-container">
+      <!-- Left Info -->
+      <div class="contact-info">
+        <h3>Let's Connect</h3>
+        <div class="info-item">
+          <i class="fas fa-envelope"></i>
+          <p>sansanshine20@gmail.com</p>
+        </div>
+        <div class="info-item">
+          <i class="fas fa-phone"></i>
+          <p>+855 96-334-0386</p>
+        </div>
+        <div class="info-item">
+          <i class="fas fa-map-marker-alt"></i>
+          <p>SenSok, PhnomPenh</p>
+        </div>
+
+        <!-- Social Icons -->
+        <div class="socials">
+          <a href="https://t.me/san2shine"><i class="fab fa-telegram-plane"></i></a>
+          <a href="https://github.com/seam-raksantra"><i class="fab fa-github"></i></a>
+          <a href="https://x.com/Unchanged21Chil?t=G-LvjawNgm_br-fSmgHOFA&s=09"><i class="fab fa-x"></i></a>
+        </div>
+      </div>
+
+      <!-- Right Form -->
+      <div class="contact-form">
+        <form action="https://formspree.io/f/mrbkyvwj" method="POST" id="contactForm">
+          <div class="form-group">
+            <label>Your Name</label>
+            <input type="text" name="name" required>
+          </div>
+          <div class="form-group">
+            <label>Your Email</label>
+            <input type="email" name="email" required>
+          </div>
+          <div class="form-group">
+            <label>Subject</label>
+            <input type="text" name="subject" required>
+          </div>
+          <div class="form-group">
+            <label>Your Message</label>
+            <textarea name="message" required></textarea>
+          </div>
+          <button type="submit" class="send-btn">
+            <i class="fas fa-paper-plane"></i> Send Message
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-container">
+      <h3 class="footer-logo">Seam Raksantra</h3>
+
+      <!-- Footer Nav -->
+      <ul class="footer-nav">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Lastes Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <!-- Social Links -->
+      <div class="footer-socials">
+        <a href="https://t.me/san2shine"><i class="fab fa-telegram-plane"></i></a>
+        <a href="https://www.facebook.com/share/1GEty1ZS1j/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://www.instagram.com/seam_raksan?igsh=Y2Nqd3p2cTJnOWk0" target="_blank"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2025 Seam Raksantra. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Scroll-to-top Button -->
+  <button class="scroll-top" id="scrollTopBtn">↑</button>
+
+  <script src="/interected/script.js"></script>
+</body>
+</html>
